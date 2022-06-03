@@ -34,15 +34,15 @@
 
 .card-category {
   background-size: cover;
-  background-position: center;
-  height: 180px;
+  background-position: top;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 24px;
-  font-weight: bold;;
-  border-radius: 5px;
+  font-weight: bold;
+  border-radius: 2px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
