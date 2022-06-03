@@ -50,7 +50,7 @@ gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 
 gem "autoprefixer-rails", "10.2.5"
-gem "font-awesome-sass", "~> 5.15"
+gem "font-awesome-sass"
 gem "simple_form", github: "heartcombo/simple_form"
 
 gem 'dotenv-rails', groups: [:development, :test]
