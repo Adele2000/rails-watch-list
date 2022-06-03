@@ -1,15 +1,20 @@
 <div class="banner" style="background-image: url(<%=@movies_picture.poster_url%>);">
   <div class="container">
-    <h1>My list</h1>
-    <p><%=@movies_picture.title%></p>
+    <p>Film du jour</p>
+    <h3><%=@movies_picture.title%></h3>
     <p><%=@movies_picture.overview%></p>
   </div>
 </div>
 
 <div class="container">
+  <h2 class="list mt-4">My list</h2>
   <div class="cards">
     <% @lists.each do |list| %>
        <div class="card-category" style="background-image: url(https://image.tmdb.org/t/p/original/AbgEQO2mneCSOc8CSnOMa8pBS8I.jpg)"> <h2> <%= link_to list.name, list_path(list) %> </h2>  </div>
     <% end %>
   </div>
+</div>
+
+<div class="footer mb-4">
+
 </div>

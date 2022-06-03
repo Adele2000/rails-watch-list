@@ -17,10 +17,11 @@
 
     </div>
 
-  <div class="back mt-4">
-    <%= link_to "Back", lists_path%>
+  <div class="footer mt-4">
+    <ul class="text-decoration-none">
+      <li class = "text-decoration-none"><%= link_to "Back", lists_path%></li>
+      <li><%= link_to 'Add a movie', new_list_bookmark_path(@list), class: 'btn btn-ghost' %></li>
+    </ul>
   </div>
-
-  <%= link_to 'Add a movie', new_list_bookmark_path(@list), class: 'btn btn-ghost' %>
 
 </div>
