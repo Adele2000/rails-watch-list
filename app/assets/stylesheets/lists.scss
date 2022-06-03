@@ -22,11 +22,14 @@
   font-weight: bold;
 }
 
-.banner p {
-  font-size: 20px;
+.film_day {
   color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 20px;
+}
+
+.day {
+  color: white;
+  font-size: 15px;
 }
 
 .card-category {
@@ -38,8 +41,7 @@
   align-items: center;
   color: white;
   font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-weight: bold;;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -99,6 +101,10 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.title_nav{
+  color : $red;
 }
 
 

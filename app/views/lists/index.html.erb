@@ -1,8 +1,12 @@
 <div class="banner" style="background-image: url(<%=@movies_picture.poster_url%>);">
   <div class="container">
-    <p>Film du jour</p>
-    <h3><%=@movies_picture.title%></h3>
-    <p><%=@movies_picture.overview%></p>
+    <p class="day">Film du jour</p>
+    <div class="row">
+      <div class="col-6">
+        <h4 class="film_day"><%=@movies_picture.title.upcase%></h4>
+        <p class="day"><%=@movies_picture.overview%></p>
+      </div>
+    </div>
   </div>
 </div>
 
