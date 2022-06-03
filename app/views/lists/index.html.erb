@@ -10,7 +10,9 @@
   <h2 class="list mt-4">My list</h2>
   <div class="cards">
     <% @lists.each do |list| %>
-       <div class="card-category" style="background-image: url(https://image.tmdb.org/t/p/original/AbgEQO2mneCSOc8CSnOMa8pBS8I.jpg)"> <h2> <%= link_to list.name, list_path(list) %> </h2>  </div>
+      <div class="card-category" style="background_image:;">
+        <h2> <%= link_to list.name, list_path(list) %> </h2>
+      </div>
     <% end %>
   </div>
 </div>

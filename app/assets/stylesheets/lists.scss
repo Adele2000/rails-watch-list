@@ -6,14 +6,6 @@
   color: white;
 }
 
-.container p {
-  font-family: 'DM Sans', sans-serif;
-}
-
-.list {
-  font-family: 'DM Sans', sans-serif;
-}
-
 .banner {
   background-size: cover;
   background-position: top;
@@ -23,15 +15,11 @@
 }
 
 .banner h3 {
-  font-family: 'DM Sans', sans-serif;
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 80px;
   font-weight: bold;
-  p {
-    font-family: 'DM Sans', sans-serif;
-  }
 }
 
 .banner p {
@@ -42,7 +30,6 @@
 }
 
 .card-category {
-  font-family: 'DM Sans', sans-serif;
   background-size: cover;
   background-position: center;
   height: 180px;
@@ -63,11 +50,6 @@
   grid-gap: 16px;
   margin-top: 2%;
 }
-
-.cards h2 {
-  font-family: 'DM Sans', sans-serif;
-}
-
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
@@ -119,10 +101,6 @@
   width: 40px;
 }
 
-.navbar-brand h4 {
-  font-family: 'DM Sans', sans-serif;
-}
-
 
 ////
 
@@ -142,12 +120,10 @@
   font-size: 16px;
   font-weight: bold;
   margin: 0;
-  font-family: 'DM Sans', sans-serif;
 }
 
 .card-trip p {
   font-size: 12px;
-  font-family: 'DM Sans', sans-serif;
   opacity: .7;
   margin: 0;
 }
